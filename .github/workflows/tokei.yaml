@@ -1,0 +1,26 @@
+name: Count Lines of Code
+
+on:
+    push:
+        branches:
+            - PHPUnit
+
+jobs:
+    lines-of-code:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v2
+
+            - name: Install Tokei
+              run: sudo apt-get install tokei
+
+            - name: Generate lines of code count
+              run: tokei --output json > lines_of_code.json
+
+            - name: Upload artifact
+              uses: actions/upload-artifact@v2
+              with:
+                  name: lines-of-code
+                  path: lines_of_code.json
