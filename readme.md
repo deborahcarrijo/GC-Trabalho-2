@@ -23,8 +23,7 @@
 * [Funcionalidades](#funcionalidades)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras-do-projeto)
+* [Autores](#autores)
 * [Conclusão](#conclusão)
 
 ## Descrição do Projeto
@@ -32,6 +31,8 @@
 Este é um projeto de Lista de Tarefas desenvolvido em PHP com PHPUnit para demonstração de testes unitários.
 
 ## Status do Projeto
+
+> :construction: Projeto em construção :construction:
 
 Atualmente, o projeto está em desenvolvimento ativo. Novas funcionalidades estão sendo adicionadas e o sistema está em constante evolução.
 
@@ -52,17 +53,13 @@ Você pode acessar o projeto diretamente através do [link para o repositório](
 - PHPUnit
 - GitHub Actions
 
-## Pessoas Contribuidoras
+## Autores
 
 - [Arthur Renato](https://github.com/tuti70)
 - [Deborah Carrijo](https://github.com/deborahcarrijo)
 - [Jean Frauzino](https://github.com/JeanBfrauzino)
 - [Luis Dantas]()
-- [Nicolas Araújo]()
-- [Felipe Gaia](https://github.com/felipengaia)
-
-## Pessoas Desenvolvedoras do Projeto
-- [Deborah Carrijo](https://github.com/deborahcarrijo)
+- [Nicolas Araújo](https://github.com/nsaraujo)
 - [Felipe Gaia](https://github.com/felipengaia)
 
 ## Conclusão
