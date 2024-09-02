@@ -1,5 +1,6 @@
 <?php
 
+namespace App;
 class ListaDeTarefas
 {
     private $tarefas = [];

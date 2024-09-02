@@ -1,5 +1,8 @@
 <?php
 
+namespace Tests;
+
+use App\ListaDeTarefas;
 use PHPUnit\Framework\TestCase;
 
 class ListaDeTarefasTest extends TestCase
