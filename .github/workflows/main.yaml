@@ -3,7 +3,7 @@ name: App Workflow
 on:
   push:
     branches:
-      - master
+      - PHPUnit
   pull_request:
     branches:
       - master
@@ -18,3 +18,9 @@ jobs:
 
       - name: Setting up PHP
         uses: ./.github/actions/php
+        
+      - name: Installing Composer
+        run: ./.github/scripts/run-composer.sh
+  
+      - name: Running PHPUnit
+        run: ./.github/scripts/run-phpunit.sh
