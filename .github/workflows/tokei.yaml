@@ -14,7 +14,11 @@ jobs:
               uses: actions/checkout@v2
 
             - name: Install Tokei
-              run: sudo apt-get install tokei
+              run: |
+                curl -LO https://github.com/XAMPPRocky/tokei/releases/download/v14.1.0/tokei_14.1.0_amd64.deb
+                sudo dpkg -i tokei_14.1.0_amd64.deb
+                sudo apt-get install -f  # Para instalar quaisquer dependências faltantes
+
 
             - name: Generate lines of code count
               run: tokei --output json > lines_of_code.json
