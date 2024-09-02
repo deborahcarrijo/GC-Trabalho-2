@@ -23,7 +23,7 @@ class ListaDeTarefasTest extends TestCase
 
     public function testAdicionarTarefaVazia()
     {
-        $this->expectException(InvalidArgumentException::class);
+        $this->expectException(\InvalidArgumentException::class);
         $this->expectExceptionMessage('A tarefa não pode ser vazia.');
         $this->listaDeTarefas->adicionarTarefa('');
     }
@@ -37,7 +37,7 @@ class ListaDeTarefasTest extends TestCase
 
     public function testRemoverTarefaInexistente()
     {
-        $this->expectException(InvalidArgumentException::class);
+        $this->expectException(\InvalidArgumentException::class);
         $this->expectExceptionMessage('Tarefa não encontrada.');
         $this->listaDeTarefas->removerTarefa('Tarefa Inexistente');
     }

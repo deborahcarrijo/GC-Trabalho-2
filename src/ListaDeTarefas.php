@@ -8,7 +8,7 @@ class ListaDeTarefas
     public function adicionarTarefa($tarefa)
     {
         if (empty($tarefa)) {
-            throw new InvalidArgumentException('A tarefa não pode ser vazia.');
+            throw new \InvalidArgumentException('A tarefa não pode ser vazia.');
         }
         $this->tarefas[] = $tarefa;
     }
@@ -17,7 +17,7 @@ class ListaDeTarefas
     {
         $key = array_search($tarefa, $this->tarefas);
         if ($key === false) {
-            throw new InvalidArgumentException('Tarefa não encontrada.');
+            throw new \InvalidArgumentException('Tarefa não encontrada.');
         }
         unset($this->tarefas[$key]);
         $this->tarefas = array_values($this->tarefas); // Reindexar array
