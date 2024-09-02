@@ -13,10 +13,13 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v2
 
-            - name: Install Tokei
+            - name: Install Dependencies
+              run: sudo apt-get update && sudo apt-get install -y curl
+
+            - name: Download and Install Tokei
               run: |
-                curl -LO https://github.com/XAMPPRocky/tokei/releases/download/v14.1.0/tokei_14.1.0_amd64.tar.gz
-                tar -xzf tokei_14.1.0_amd64.tar.gz
+                curl -LO https://github.com/XAMPPRocky/tokei/releases/download/v14.1.0/tokei-v14.1.0-x86_64-unknown-linux-gnu.tar.gz
+                tar -xzf tokei-v14.1.0-x86_64-unknown-linux-gnu.tar.gz
                 sudo mv tokei /usr/local/bin/
 
             - name: Generate lines of code count
