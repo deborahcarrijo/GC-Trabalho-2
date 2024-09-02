@@ -10,7 +10,6 @@
 ![Pull Requests](https://img.shields.io/github/issues-pr/deborahcarrijo/GC-Trabalho-2?style=flat)
 ![Contributors](https://img.shields.io/github/contributors/deborahcarrijo/GC-Trabalho-2?style=flat)
 ![Last Commit](https://img.shields.io/github/last-commit/deborahcarrijo/GC-Trabalho-2?style=flat)
-![Lines of Code](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/deborahcarrijo/GC-Trabalho-2/PHPUnit/lines_of_code.json?style=flat)
 ![GitHub Org's stars](https://img.shields.io/github/stars/deborahcarrijo?style=flat)
 
 
