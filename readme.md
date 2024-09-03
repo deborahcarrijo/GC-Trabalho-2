@@ -58,7 +58,7 @@ Você pode acessar o projeto diretamente através do [link para o repositório](
 - [Arthur Renato](https://github.com/tuti70)
 - [Deborah Carrijo](https://github.com/deborahcarrijo)
 - [Jean Frauzino](https://github.com/JeanBfrauzino)
-- [Luis Dantas]()
+- [Luis Dantas](https://github.com/luisfeecosta)
 - [Nicolas Araújo](https://github.com/nsaraujo)
 - [Felipe Gaia](https://github.com/felipengaia)
 
