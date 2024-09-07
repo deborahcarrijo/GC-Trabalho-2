@@ -58,6 +58,6 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: "Saída de log relevante"
+      description: Por favor, copie e cole qualquer saída de log relevante. Isso será formatado automaticamente em código, então não há necessidade de acentos graves.
       render: shell
