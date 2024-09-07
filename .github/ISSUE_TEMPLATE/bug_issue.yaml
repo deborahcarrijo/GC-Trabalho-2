@@ -1,0 +1,65 @@
+name: "Problema Reportado"
+description: "Formulário para registrar problemas no projeto"
+title: "Problema: [Descrição Resumida]"
+labels: ["bug", "triage"]
+assignees: ""
+
+body:
+  - type: input
+    id: nome_registrante
+    attributes:
+      label: "Nome da Pessoa que Registrou o Problema"
+      description: "Informe o nome da pessoa que está registrando o problema."
+      placeholder: "Ex: João Silva"
+    validations:
+      required: true
+
+  - type: input
+    id: data_registro
+    attributes:
+      label: "Data de Registro do Problema"
+      description: "Informe a data em que o problema foi registrado."
+      placeholder: "Ex: 07/09/2024"
+    validations:
+      required: true
+
+  - type: textarea
+    id: descricao_problema
+    attributes:
+      label: "Descrição do Problema"
+      description: "Descreva o problema de forma detalhada."
+      placeholder: "Descreva aqui o problema encontrado."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: prioridade_problema
+    attributes:
+      label: "Prioridade do Problema"
+      description: "Selecione a prioridade de resolução do problema."
+      options:
+        - "Baixa"
+        - "Média"
+        - "Alta"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: gravidade_problema
+    attributes:
+      label: "Gravidade/Impacto do Problema"
+      description: "Selecione o nível de gravidade ou impacto do problema."
+      options:
+        - "Baixa"
+        - "Moderada"
+        - "Alta"
+        - "Crítica"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
