@@ -1,7 +1,6 @@
 name: "Problema Reportado"
 description: "Formulário para registrar problemas no projeto"
 title: "Problema: [Descrição Resumida]"
-labels: ["bug", "triage"]
 
 body:
   - type: input
